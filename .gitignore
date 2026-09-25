@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+
+# Data & models
+data/*.csv
+!data/.gitkeep
+models/
+*.joblib
+*.pkl
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+logs/
